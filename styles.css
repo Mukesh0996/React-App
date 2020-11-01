@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(90deg, #6598f6, #353c7e);
+  color: white;
+}
+
+.de {
+  display: flex;
+}
+
+input {
+  flex: 1;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+li {
+  list-style: none;
+}
+
+.todosList {
+  margin: 60px;
+}
+
+.b {
+  flex: 1;
+}
+
+.des {
+  display: flex;
+}
+
+.tasked {
+  display: flex;
+  justify-content: space-around;
+}
+i:hover {
+  color: #6598f6;
+  transition: 0.3s;
+}
+.end {
+  justify-content: flex-end;
+}
